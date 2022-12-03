@@ -13,7 +13,8 @@ The files names from RAVDESS dataset are decoded with [ravdess_data_preprocess.p
 ## XGBoost Tree
 We first use grid search to find the best parameters for the performance of the XGBoost tree, based on which we classify our data to make sure the model works, so that the important features are indeed important.
 ![confusion_matrix](https://user-images.githubusercontent.com/57549068/205438956-c02950d2-c68b-4036-905c-280c858ee11b.png)
-...Which proves that the XGBoost model is reliable.
+
+...which proves that the XGBoost model is reliable.
 
 ## Get feature importance
 Since we have acquired a reliable model, the important features in the tree model are the ones we want to find. We use various feature importance calculation methods and come up with a final feature set.
